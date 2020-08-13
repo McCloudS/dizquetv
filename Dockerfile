@@ -17,7 +17,6 @@ RUN apk add --update \
   --enable-gpl \
   --enable-nonfree \
   --enable-small \
-  --enable-libmfx \
   --enable-nonfree \
   --enable-libmp3lame \
   --enable-libx264 \
