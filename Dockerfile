@@ -28,6 +28,8 @@ RUN apk add --update \
   --enable-libass \
   --enable-libwebp \
   --enable-librtmp \
+  --enable-libmfx \
+  --enable-nonfree \
   --enable-postproc \
   --enable-avresample \
   --enable-libfreetype \
