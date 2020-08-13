@@ -1,4 +1,4 @@
-FROM node:12.18.0-buster-slim
+FROM node:12.18.0-buster
 FROM jrottenberg/ffmpeg:4.3-vaapi as ffmpeg
 WORKDIR /home/node/app
 COPY package*.json ./
